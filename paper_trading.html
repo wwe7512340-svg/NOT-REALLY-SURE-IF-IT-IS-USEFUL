@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paper Trading v8.5 — 2026-09-30</title>
+    <title>Paper Trading v8.5 — 2026-10-01</title>
     <meta name="description" content="TW Stocker v8.5 Paper Trading 實時績效追蹤">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
     <style>
@@ -92,7 +92,7 @@
     <h1>📈 Paper Trading v8.5</h1>
     <p class="subtitle">
         <span class="badge badge-live">● LIVE</span>
-        起始日 2026-09-30 | 更新 2026-09-30 | 初始資金 200,000 | 保留本金 10%，其餘投入
+        起始日 2026-10-01 | 更新 2026-10-01 | 初始資金 200,000 | 保留本金 10%，其餘投入
     </p>
 
     <div class="metrics">
@@ -149,53 +149,53 @@
             <tr><th>股票</th><th>參考收盤</th><th>停利</th><th>停損</th><th>執行日</th></tr>
             
         <tr>
-            <td><b>3529O</b></td>
-            <td>3305.0</td>
-            <td>4122.0</td>
-            <td>2692.2</td>
-            <td>2026-10-01</td>
+            <td><b>3443</b></td>
+            <td>8040.0</td>
+            <td>9246.0</td>
+            <td>7396.8</td>
+            <td>2026-10-02</td>
         </tr>
         <tr>
             <td><b>6505</b></td>
             <td>97.3</td>
-            <td>114.8</td>
-            <td>84.2</td>
-            <td>2026-10-01</td>
+            <td>111.9</td>
+            <td>89.5</td>
+            <td>2026-10-02</td>
         </tr>
         <tr>
-            <td><b>3443</b></td>
-            <td>8040.0</td>
-            <td>9742.0</td>
-            <td>6763.5</td>
-            <td>2026-10-01</td>
-        </tr>
-        <tr>
-            <td><b>2454</b></td>
-            <td>4920.0</td>
-            <td>5901.0</td>
-            <td>4184.2</td>
-            <td>2026-10-01</td>
-        </tr>
-        <tr>
-            <td><b>2404</b></td>
-            <td>1290.0</td>
-            <td>1516.6</td>
-            <td>1120.0</td>
-            <td>2026-10-01</td>
+            <td><b>3529O</b></td>
+            <td>3305.0</td>
+            <td>3800.8</td>
+            <td>3040.6</td>
+            <td>2026-10-02</td>
         </tr>
         <tr>
             <td><b>3037</b></td>
             <td>1175.0</td>
-            <td>1397.4</td>
-            <td>1008.2</td>
-            <td>2026-10-01</td>
+            <td>1351.2</td>
+            <td>1081.0</td>
+            <td>2026-10-02</td>
+        </tr>
+        <tr>
+            <td><b>2404</b></td>
+            <td>1290.0</td>
+            <td>1483.5</td>
+            <td>1186.8</td>
+            <td>2026-10-02</td>
         </tr>
         <tr>
             <td><b>2303</b></td>
             <td>154.5</td>
-            <td>183.3</td>
-            <td>132.9</td>
-            <td>2026-10-01</td>
+            <td>177.7</td>
+            <td>142.1</td>
+            <td>2026-10-02</td>
+        </tr>
+        <tr>
+            <td><b>2454</b></td>
+            <td>4920.0</td>
+            <td>5658.0</td>
+            <td>4526.4</td>
+            <td>2026-10-02</td>
         </tr>
         </table>
     </div>
@@ -219,7 +219,7 @@ const ctx = document.getElementById('equityChart').getContext('2d');
 new Chart(ctx, {
     type: 'line',
     data: {
-        labels: ["2026-09-30"],
+        labels: ["2026-10-01"],
         datasets: [{
             label: 'Paper Trading 權益',
             data: [200000],
